@@ -488,6 +488,10 @@ img {
   align-items: baseline;
 }
 
+.address-container {
+  width: 231px;
+}
+
 .fact-address,
 .contact {
   font-weight: 400;
@@ -558,6 +562,7 @@ img {
   border-radius: 4px;
   background-color: transparent;
   color: var(--third-color);
+  padding: 15px;
 }
 
 .footer-modal-form-input::placeholder {
@@ -622,6 +627,7 @@ img {
 }
 
 .portfolio-btn {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
@@ -855,7 +861,7 @@ img {
   content: '';
   width: 16px;
   height: 16px;
-  outline: 1px solid #000000;
+  border: 1px solid #000000;
   cursor: pointer;
   margin-right: 8px;
   border-radius: 2px;
@@ -865,7 +871,7 @@ img {
   background-color: var(--accent-color);
   background-image: url(../images/modal-form/icon-check.svg);
   background-position: center;
-  outline: none;
+  border: none;
 }
 
 .modal-form-term:focus + .modal-form-check-desc::before {
